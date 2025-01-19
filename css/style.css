@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Raleway";
+  --bs-success-rgb: 153, 229, 77;
+  --bs-warning-rgb: 241, 174, 14;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat";
+}
+
+.carousel-item img {
+  height: 42rem;
+  object-fit: cover;
+}
