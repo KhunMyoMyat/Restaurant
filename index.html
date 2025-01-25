@@ -18,6 +18,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
+    <!-- lightgallery css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/css/lightgallery-bundle.min.css"
+    />
+
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -460,7 +466,74 @@
       </div>
     </section>
 
-    <section class="py-5" style="background-image: url(img/home3.jpg)">
+    <section class="py-5">
+      <div class="container-fluid">
+        <div
+          id="lightgallery"
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"
+        >
+          <a href="img/pic1.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic1.jpg" alt="" class="object-fit-cover rounded" />
+            </figure>
+          </a>
+          <a href="img/pic2.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic2.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic3.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic3.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic14.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img
+                src="img/pic14.jpg"
+                alt=""
+                class="object-fit-cover rounded"
+              />
+            </figure> </a
+          ><a href="img/pic5.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic5.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic6.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic6.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic7.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic7.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic8.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic8.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic9.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img src="img/pic9.jpg" alt="" class="object-fit-cover rounded" />
+            </figure> </a
+          ><a href="img/pic10.jpg" class="col">
+            <figure class="ratio ratio-1x1">
+              <img
+                src="img/pic10.jpg"
+                alt=""
+                class="object-fit-cover rounded"
+              />
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="py-5"
+      style="
+        background-image: url(img/home3.jpg);
+        background-size: cover;
+        object-fit: cover;
+      "
+    >
       <div class="container py-5">
         <div
           class="bg-success rounded-circle text-black fw-bolder text-center d-flex flex-column justify-content-center align-items-center mb-3"
@@ -484,8 +557,9 @@
                 <div class="row row-gap-3">
                   <div class="col-12 col-md-8 col-lg-9">
                     <input
-                      type="text"
-                      class="rounded-pill p-2 p-md-3 w-100 outling-0"
+                      type="email"
+                      class="rounded-pill p-2 p-md-3 w-100 border-0"
+                      placeholder="Your Email"
                     />
                   </div>
                   <div class="col-12 col-md-4 col-lg-3">
@@ -558,6 +632,11 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- lightgallery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/lightgallery.min.js"></script>
+    <!-- lightgallery plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
     <!-- custom js -->
     <script src="./js/main.js"></script>
   </body>
